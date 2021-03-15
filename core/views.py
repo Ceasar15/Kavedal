@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 # Test static files and database
 def home(request):
-    return render(request, 'home/html')
+    return render(request, 'core/home.html')
