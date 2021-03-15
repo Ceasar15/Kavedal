@@ -27,19 +27,5 @@ Answer
 
 ## Copyright
 
-, Copyright 2016 WordPress.org
-Kavedal is distributed under the terms of the GNU GPL
-
-Kavedal bundles the following third-party resources:
-
-normalize.css, Copyright 2012-2016 Nicolas Gallagher and Jonathan Neal
 **License:** MIT
-Source: https://necolas.github.io/normalize.css/
 
-Font Awesome icons, Copyright Dave Gandy
-**License:** SIL Open Font License, version 1.1.
-Source: http://fontawesome.io/
-
-Bundled header image, Copyright Alvin Engler
-**License:** CC0 1.0 Universal (CC0 1.0)
-Source: https://unsplash.com/@englr?photo=bIhpiQA009k
