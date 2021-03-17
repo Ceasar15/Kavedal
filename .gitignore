@@ -6,6 +6,9 @@
 # Celerybeat scheduler file:
 celerybeat-schedule
 
+#env directory
+
+
 
 
 .DS_STORE
