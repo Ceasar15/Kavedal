@@ -36,6 +36,7 @@ sqlparse = "==0.4.1"
 urllib3 = "==1.25.8"
 webencodings = "==0.5.1"
 dj-database-url = "*"
+gunicorn = "*"
 
 [dev-packages]
 
