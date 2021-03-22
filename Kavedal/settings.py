@@ -71,17 +71,18 @@ WSGI_APPLICATION = 'Kavedal.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Kavedal',
-        'USER': 'bookmarks',
-        'PASSWORD': 'edem1234',
-        'HOST': 'localhost',
-        'PORT': '', 
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'Kavedal',
+#         'USER': 'bookmarks',
+#         'PASSWORD': 'edem1234',
+#         'HOST': 'localhost',
+#         'PORT': '', 
+#     }
+# }
 
+DATABASES={'default' : dj_database_url.config(conn_max_age=600)}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
