@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 # Test static files and database
 def home(request):
-    return render(request, 'core/index.html')
+    return render(request, 'core/learn/index.html')
