@@ -5,7 +5,8 @@ from django.conf.urls.static import static
 from Kavedal import settings
 
 urlpatterns = [
-    path('home', views.home, name='home'),
+    path('', views.home, name=''),
     # path('contact/', views.contact, name='contact'),
 
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] 
+# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
