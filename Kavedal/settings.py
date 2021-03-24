@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'h4d*!u85(2s*jo(k$*_=p+e#=6z-q0pqi9vmn2qh&+&(m(_&kp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -73,18 +73,18 @@ WSGI_APPLICATION = 'Kavedal.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Kavedal',
-        'USER': 'bookmarks',
-        'PASSWORD': 'edem1234',
-        'HOST': 'localhost',
-        'PORT': '', 
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'Kavedal',
+#         'USER': 'bookmarks',
+#         'PASSWORD': 'edem1234',
+#         'HOST': 'localhost',
+#         'PORT': '', 
+#     }
+# }
 
-# DATABASES={'default' : dj_database_url.config(conn_max_age=600)}
+DATABASES={'default' : dj_database_url.config(conn_max_age=600)}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
