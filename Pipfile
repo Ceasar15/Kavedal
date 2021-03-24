@@ -38,6 +38,7 @@ webencodings = "==0.5.1"
 dj-database-url = "*"
 gunicorn = "*"
 django-heroku = "*"
+whitenoise = "*"
 
 [dev-packages]
 

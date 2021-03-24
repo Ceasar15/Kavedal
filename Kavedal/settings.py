@@ -34,6 +34,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -85,6 +86,8 @@ WSGI_APPLICATION = 'Kavedal.wsgi.application'
 # }
 
 DATABASES={'default' : dj_database_url.config(conn_max_age=600)}
+# DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
+# DATABASES['default']['NAME'] = 'Kavedal'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -133,3 +136,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
 django_heroku.settings(locals())
+
+options = DATABASES['default'].get('OPTIONS', {})
+#options.pop('sslmode', None)

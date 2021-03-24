@@ -651,7 +651,8 @@
 				</div>
 				<div class="col-xl-7 col-lg-7">
 					<div class="contact-form-wrapper">
-						<form action="assets/contact.php">
+						<form method="post" action="">
+							{% csrf_token %}
 							<div class="row">
 								<div class="col-md-6">
 									<input type="text" placeholder="Name" name="name" id="name">
@@ -721,10 +722,12 @@
 					<div class="footer-widget">
 						<h5>Contact Us</h5>
 						<ul>
-							<li><p>Phone: 0506684807</p></li>
+
+							<li><p>Phone: 0267170836 / 0506684807</p></li>
 							<li><p>Email: kavedalghana@gmail.com</p></li>
-							<li><p>Address: Ashaley-Botwe<br> Accra-Ghana</p></li>
-						</ul>
+							<li><p>Address: Ashaley-Botwe, <br> Accra-Ghana</p></li>
+
+            </ul>
 					</div>
 				</div>
 			</div>
