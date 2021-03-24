@@ -651,7 +651,8 @@
 				</div>
 				<div class="col-xl-7 col-lg-7">
 					<div class="contact-form-wrapper">
-						<form action="assets/contact.php">
+						<form method="post" action="">
+							{% csrf_token %}
 							<div class="row">
 								<div class="col-md-6">
 									<input type="text" placeholder="Name" name="name" id="name">
