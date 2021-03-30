@@ -1602,7 +1602,7 @@ hero area css
   background-image: url("../images/hero-bg.jpg");
   position: relative;
   z-index: 1;
-  padding: 280px 0 320px;
+  padding: 280px 0 50px;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -1613,7 +1613,7 @@ hero area css
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-area {
-    padding: 200px 0px;
+    padding: 200px 0px ;
   }
 }
 
@@ -1717,12 +1717,18 @@ hero area css
 }
 
 .hero-area .hero-left .shape {
-  position: absolute;
+  position: relative;/*position: absolute; --changed --worked*/ 
   right: -40px;
-  bottom: -40px;
+  bottom: -40px; 
   z-index: -1;
 }
-
+/*  I created this */
+.shape{
+  position: absolute;
+  right:-40px;
+  bottom:-30px;
+  z-index:-1;
+}
 /*============================
 skill css
 ============================= */
@@ -2077,6 +2083,12 @@ welcome css
   padding-left: 20px;
 }
 
+#welcome-rounded {
+  border-radius: 50%;
+  border:1px solid;
+  width:60%;
+  height:60%;
+}
 /*============================
 categories css
 ============================= */
