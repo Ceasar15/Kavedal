@@ -25,12 +25,10 @@ You can access the live application here.
 
 
 ## Visuals
+![Home Page ](https://user-images.githubusercontent.com/42820626/156565264-2b8c757e-b556-4b4f-9def-ed7d5ea2a719.png)
+![Blog Page](https://user-images.githubusercontent.com/42820626/156565290-45dcb210-340d-4ec3-b3fd-5a7fae62a599.png)
+![ContactUs Page](https://user-images.githubusercontent.com/42820626/156565303-528f5e59-5fd9-45fa-83ab-2da64fbd8cfd.png)
 
-```image 1
-![Screenshot](screenshot.png)
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
