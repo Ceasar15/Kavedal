@@ -1,29 +1,43 @@
-# KAVEDAL TRAINING INSTITUTE WEBSITE
+# Kavedal Schoo Website
+ This is a webiste for an institute. It was built with Python, Django and deployed to heroku.
 
-**Contributors:** ()  
-**Requires at least:** Django3.0  
-**Tested on:** Mobile and Web  
-**Requires Python:** 3.7
+## Installation
+
+Clone the repository, run the virtual environment and install all requirements.
+```bash
+git clone https://github.com/Ceasar15/finances.git
+pip install virtualenv
+virtualenv venv
+source venv/Scripts/activate
+pip install requirements.txt
+```
+Run migrations commands and manage.py to start the development server.
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+## Preview
+You can access the live application here.
+[Live Preview](http://kavedal.herokuapp.com/)
 
 
-Here is a short description of the website.
+## Visuals
 
-## Description
+```image 1
+![Screenshot](screenshot.png)
+![plot](./directory_1/directory_2/.../directory_n/plot.png)
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+```
 
-This is the long description.  I will add later.
- 
- 
-A few notes about the sections above:
- 
-*    
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Frequently Asked Questions
+Please make sure to update tests as appropriate.
 
-* I will answer all your FAQ here. Please wait. 
-Answer
-
-
-## Copyright
-
-**License:** MIT
-
+## Project status
+This project is not under development anymore. 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
